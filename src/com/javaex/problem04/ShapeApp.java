@@ -16,8 +16,8 @@ public class ShapeApp {
         
         for( int i=0; i<sList.size(); i++ ) {
             
-            System.out.println( "area: " + sList.get(i).getArea() );
-            System.out.println( "perimeter: " + sList.get(i).getPerimeter() );
+            System.out.println( "area: " + sList.get(i).getArea() ); //if i == 1 rectangle area else rectriangle
+            System.out.println( "perimeter: " + sList.get(i).getPerimeter() ); //
             
             if( sList.get(i) instanceof Resizeable ) {
                 ((Resizeable)sList.get(i)).resize( 0.5 );
